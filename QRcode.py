@@ -22,6 +22,6 @@ def qrcode2():
                     
     new_qr.add_data("https://zty.pe/")
     new_qr.make(fit=True)
-    img = new_qr.make_image(fillcolor ="red",back_color ="blue")
+    img = new_qr.make_image(fill_color ="yellow",back_color ="red")
     img.save("ztype.jpg")
 qrcode2()
